@@ -25,6 +25,23 @@ html,body{
   overflow: hidden;
   background-color: #ddd;
 }
+.img-figure{
+  position: absolute;
+  width: 320px;
+  height: 360px;
+  padding: 40px;
+  margin: 0;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.img-figure figcaption{
+  text-align: center;
+}
+.img-figure figcaption .img-title{
+  margin-top: 20px;
+  color: #a7a0a2;
+  font-size: 16px;
+}
 /* image -- end*/
 
 /* controller -- start*/
